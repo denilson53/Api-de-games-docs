@@ -8,13 +8,24 @@ Esse endpoint é responsável por retornar a listagem de todos os games cadastra
 Nenhum
 #### Respostas
 ##### ok! 200
-Caso essa resposta aconteça você vai receber o token JWT para conseguir acessar endpoints protegidos na API.
 
+Caso essa resposta aconteça você vai receber a listagem de todos os games.
 Exemplo de resposta:
 ```
-{
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJSb2xkRmVhckBnbWFpbC5jb20iLCJpYXQiOjE2NzY1ODc5ODAsImV4cCI6MTY3Njk0Nzk4MH0.8OnGfuHn-iFvYbKUgttXJbFvTf62C8YzIxp7Ok2oKKM"
-}
+[
+    {
+        "id": 19,
+        "title": "Sea of thieves",
+        "year": "2020",
+        "price": "89,99"
+    },
+    {
+        "id": 20,
+        "title": "Minecraft",
+        "year": "2018",
+        "price": "59,99"
+    }
+]
 
 ```
 ```
@@ -45,24 +56,13 @@ Exemplo:
 
 #### Respostas
 ##### ok! 200
-Caso essa resposta aconteça você vai receber a listagem de todos os games
-
+Caso essa resposta aconteça você vai receber o token JWT para conseguir acessar endpoints protegidos na API.
 Exemplo de resposta:
 ```
-[
-    {
-        "id": 19,
-        "title": "Sea of thieves",
-        "year": "2020",
-        "price": "89,99"
-    },
-    {
-        "id": 20,
-        "title": "Minecraft",
-        "year": "2018",
-        "price": "59,99"
-    }
-]
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJSb2xkRmVhckBnbWFpbC5jb20iLCJpYXQiOjE2NzY1ODc5ODAsImV4cCI6MTY3Njk0Nzk4MH0.8OnGfuHn-iFvYbKUgttXJbFvTf62C8YzIxp7Ok2oKKM"
+}
 
 ```
 ```
