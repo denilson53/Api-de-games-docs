@@ -151,7 +151,7 @@ Exemplo de resposta:
 
 ## Endpoints
 ### PUT /game/:id
-Esse endpoint é responsável por editar um game cadastrados no banco de dados.
+Esse endpoint é responsável para editar um game cadastrados no banco de dados.
 #### Parametros
 Nenhum
 #### Respostas
